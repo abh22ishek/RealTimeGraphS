@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.bpl.com.ecggraphproject.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:background="#808088"
+        android:layout_height="50dp"/>
+
+
+
+    <test.bpl.com.ecggraphproject.RoundedSurfaceView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/rounded_surfaceview"
+        android:layout_marginTop="200dp"
+        android:layout_below="@+id/fragment_container"
+        />
+
+
+</RelativeLayout>
